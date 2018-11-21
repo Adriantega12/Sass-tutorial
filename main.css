@@ -1,0 +1,67 @@
+/*Partials and import*/
+/*Partials and import*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Variables example*/
+header {
+  background: #191A1D;
+}
+
+body {
+  background: #87AEB4;
+}
+
+/*Nesting*/
+header h1 {
+  letter-spacing: 0.5em;
+  color: #F2BE54;
+}
+
+main h1 {
+  text-align: center;
+  color: #153E5C;
+}
+
+/*Mixins*/
+header {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*Inheritance and extends*/
+.column, .row {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 3px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row {
+  background: red;
+  flex-direction: row;
+}
+
+.column {
+  background: blue;
+  flex-direction: column;
+}
+
+/*Operators*/
+aside {
+  background: green;
+  width: 100%;
+  height: 56.25%;
+}
+
+/*# sourceMappingURL=main.css.map */
