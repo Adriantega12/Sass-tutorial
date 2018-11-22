@@ -1,5 +1,4 @@
 /*Partials and import*/
-/*Partials and import*/
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +57,7 @@ main {
 }
 
 /*Operators*/
-aside {
+footer {
   background: green;
   width: 100%;
   height: 56.25%;
